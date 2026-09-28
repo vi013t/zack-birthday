@@ -1,9 +1,11 @@
 import { SvelteSet } from "svelte/reactivity";
 import conclusionImage from "../assets/images/objects/conclusion.png";
+import eliImage from "../assets/images/objects/elis_clip.png";
 import introImage from "../assets/images/objects/intro.png";
 import nesImage from "../assets/images/objects/ness_nothing.jpg";
 import violetImage from "../assets/images/objects/violets_flower.jpg";
 import conclusionVideo from "../assets/videos/conclusion.mp4";
+import eliVideo from "../assets/videos/eli.mp4";
 import introVideo from "../assets/videos/intro.mp4";
 import nesVideo from "../assets/videos/nes.mp4";
 import violetVideo from "../assets/videos/violet.mp4";
@@ -22,8 +24,8 @@ export const allObjects: ZackObject[] = [
 	{ name: "lucas", object: "object" },
 	{ name: "nes", object: "nothing", image: nesImage, video: nesVideo },
 	{ name: "richard", object: "object" },
+	{ name: "eli", object: "clip", image: eliImage, video: eliVideo },
 	{ name: "fern", object: "object" },
-	{ name: "eli", object: "object" },
 	{ name: "whimsy", object: "object" },
 	{ name: "conclusion", object: "", image: conclusionImage, video: conclusionVideo },
 ];
