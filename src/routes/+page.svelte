@@ -1,5 +1,6 @@
 <script>
 	import balloons from "../assets/images/balloons.png";
+	import richardImage from "../routes/17/assets/images/objects/richards_thingy.jpg";
 	import violetsFlowerImage from "../routes/17/assets/images/objects/violets_flower.jpg";
 	import bear from "./17/assets/images/decorations/bear.png";
 	import cat from "./17/assets/images/decorations/cat.png";
@@ -28,7 +29,7 @@
 				</div>
 				<div class="card-17 unlocked">
 					<div class="image-wrapper-17">
-						<img src={violetsFlowerImage} alt="violets flower" />
+						<img src={richardImage} alt="violets flower" />
 					</div>
 				</div>
 				<div class="card-17">?</div>
