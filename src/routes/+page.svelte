@@ -71,9 +71,22 @@
 		align-items: center;
 	}
 
+	@media (orientation: landscape) {
+		.title {
+			font-size: 5vw;
+		}
+	}
+
+	@media (orientation: portrait) {
+		.title {
+			font-size: 10vw;
+			z-index: 99;
+			text-shadow: 0px 0px 0.25rem black;
+		}
+	}
+
 	.title {
 		font-family: "Contrail One";
-		font-size: 5vw;
 		color: #cdd6f4;
 		text-transform: uppercase;
 	}
@@ -189,8 +202,19 @@
 		}
 	}
 
+	@media (orientation: landscape) {
+		.wrapper-17 {
+			height: 8vw;
+		}
+	}
+
+	@media (orientation: portrait) {
+		.wrapper-17 {
+			width: 90%;
+		}
+	}
+
 	.wrapper-17 {
-		height: 8vw;
 		aspect-ratio: 8.2 / 1;
 		position: relative;
 		transition: height 0.15s;
