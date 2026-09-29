@@ -6,6 +6,7 @@
 	import catHead from "./assets/images/decorations/cat_head.png";
 	import catLeft from "./assets/images/decorations/cat_left.png";
 	import catSide from "./assets/images/decorations/cat_side.png";
+	import cow from "./assets/images/decorations/cow.png";
 	import Card from "./components/Card.svelte";
 	import LeftArrowIcon from "./components/icons/LeftArrowIcon.svelte";
 
@@ -53,6 +54,7 @@
 			{#each allObjects as object, index}
 				<Card {object} {revealObject} canReveal={index === 0 || isRevealed(allObjects[index - 1])} />
 			{/each}
+			<img src={cow} alt="cow" class="cow" />
 		</div>
 
 		<img class="bear" src={bear} alt="bear" />
@@ -75,6 +77,20 @@
 		font-family: "Cherry Bomb One";
 		color: rgb(220, 200, 255);
 		font-size: 3vw;
+	}
+
+	.cow {
+		height: 10vw;
+		width: auto;
+		transform: scaleX(-1);
+		margin-top: 5vw;
+		margin-left: auto;
+	}
+
+	@media (orientation: portrait) {
+		.cow {
+			display: none;
+		}
 	}
 
 	@media (orientation: landscape) {
