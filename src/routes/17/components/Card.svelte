@@ -240,6 +240,9 @@
 			height: 2.5vw;
 			font-size: 0.8vw;
 			margin-bottom: 2vw;
+			padding-left: 1.5vw;
+			padding-right: 1.5vw;
+			text-align: center;
 
 			&::before {
 				border-left: 1.25vw solid white;
@@ -259,22 +262,25 @@
 
 	@media (orientation: portrait) {
 		.title {
-			height: 3vw;
-			font-size: 1.2vw;
+			height: 8vw;
+			font-size: 2vw;
 			margin-bottom: 1vw;
+			padding-left: 1.75vw;
+			padding-right: 1.75vw;
+			text-align: center;
 
 			&::before {
-				border-left: 1.5vw solid white;
-				border-top: 1.5vw solid transparent;
-				border-right: 1.5vw solid transparent;
-				border-bottom: 1.5vw solid transparent;
+				border-left: 4vw solid white;
+				border-top: 4vw solid transparent;
+				border-right: 4vw solid transparent;
+				border-bottom: 4vw solid transparent;
 			}
 
 			&::after {
-				border-right: 1.5vw solid white;
-				border-top: 1.5vw solid transparent;
-				border-left: 1.5vw solid transparent;
-				border-bottom: 1.5vw solid transparent;
+				border-right: 4vw solid white;
+				border-top: 4vw solid transparent;
+				border-left: 4vw solid transparent;
+				border-bottom: 4vw solid transparent;
 			}
 		}
 	}

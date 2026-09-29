@@ -244,14 +244,21 @@
 	@media (orientation: landscape) {
 		.cards {
 			padding: 1rem;
+			grid-template-columns: repeat(5, 1fr);
+			gap: 2vw;
+		}
+	}
+
+	@media (orientation: portrait) {
+		.cards {
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5vw;
 		}
 	}
 
 	.cards {
 		width: 100%;
-		gap: 2vw;
 		display: grid;
-		grid-template-columns: repeat(5, 1fr);
 	}
 
 	.reset {
