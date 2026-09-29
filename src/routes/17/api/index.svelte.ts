@@ -28,7 +28,6 @@ export const allObjects: ZackObject[] = [
 	{ name: "richard", object: "photo & chiikawa", image: richardImage, video: richardVideo },
 	{ name: "eli", object: "clip", image: eliImage, video: eliVideo },
 	{ name: "fern", object: "object" },
-	{ name: "whimsy", object: "object" },
 	{ name: "conclusion", object: "", image: conclusionImage, video: conclusionVideo },
 ];
 
