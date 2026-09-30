@@ -47,7 +47,7 @@
 		<span class="title">Happy Birthday Zack!! :D</span>
 
 		<!-- svelte-ignore a11y_media_has_caption -->
-		<video bind:this={video} class="video" controls src={allObjects[0].video}></video>
+		<video bind:this={video} class="video" controls src={allObjects[0].video} playsinline></video>
 		<span class="video-title">{title}</span>
 
 		<div class="cards">
