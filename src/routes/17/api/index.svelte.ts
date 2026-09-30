@@ -2,12 +2,14 @@ import { SvelteSet } from "svelte/reactivity";
 import conclusionImage from "../assets/images/objects/conclusion.png";
 import eliImage from "../assets/images/objects/elis_clip.png";
 import introImage from "../assets/images/objects/intro.png";
+import kennyImage from "../assets/images/objects/kennys_album.jpg";
 import nesImage from "../assets/images/objects/ness_nothing.png";
 import richardImage from "../assets/images/objects/richards_thingy.jpg";
 import violetImage from "../assets/images/objects/violets_flower.jpg";
 import conclusionVideo from "../assets/videos/conclusion.mp4";
 import eliVideo from "../assets/videos/eli.mp4";
 import introVideo from "../assets/videos/intro.mp4";
+import kennyVideo from "../assets/videos/kenny.mp4";
 import nesVideo from "../assets/videos/nes.mp4";
 import richardVideo from "../assets/videos/richard.mp4";
 import violetVideo from "../assets/videos/violet.mp4";
@@ -22,7 +24,7 @@ export type ZackObject = {
 export const allObjects: ZackObject[] = [
 	{ name: "intro", object: "", image: introImage, video: introVideo },
 	{ name: "violet", object: "flower", image: violetImage, video: violetVideo },
-	{ name: "kenny", object: "object" },
+	{ name: "kenny", object: "album", image: kennyImage, video: kennyVideo },
 	{ name: "lucas", object: "object" },
 	{ name: "nes", object: "nothing", image: nesImage, video: nesVideo },
 	{ name: "richard", object: "photo & chiikawa", image: richardImage, video: richardVideo },
