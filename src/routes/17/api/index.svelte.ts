@@ -27,7 +27,7 @@ export const allObjects: ZackObject[] = [
 	{ name: "intro", object: "", image: introImage, video: introVideo },
 	{ name: "violet", object: "flower", image: violetImage, video: violetVideo },
 	{ name: "kenny", object: "album", image: kennyImage, video: kennyVideo },
-	{ name: "lucas", object: "object", image: lucasImage, video: lucasVideo },
+	{ name: "lucas", object: "books", image: lucasImage, video: lucasVideo },
 	{ name: "nes", object: "nothing", image: nesImage, video: nesVideo },
 	{ name: "richard", object: "photo & chiikawa", image: richardImage, video: richardVideo },
 	{ name: "eli", object: "clip", image: eliImage, video: eliVideo },
