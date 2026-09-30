@@ -3,7 +3,7 @@ import conclusionImage from "../assets/images/objects/conclusion.png";
 import eliImage from "../assets/images/objects/elis_clip.png";
 import introImage from "../assets/images/objects/intro.png";
 import kennyImage from "../assets/images/objects/kennys_album.jpg";
-import nesImage from "../assets/images/objects/ness_nothing.png";
+import nesImage from "../assets/images/objects/ness_nothing.jpg";
 import richardImage from "../assets/images/objects/richards_thingy.jpg";
 import violetImage from "../assets/images/objects/violets_flower.jpg";
 import conclusionVideo from "../assets/videos/conclusion.mp4";
