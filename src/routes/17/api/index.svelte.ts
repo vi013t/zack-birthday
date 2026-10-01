@@ -1,6 +1,7 @@
 import { SvelteSet } from "svelte/reactivity";
 import conclusionImage from "../assets/images/objects/conclusion.png";
 import eliImage from "../assets/images/objects/elis_clip.png";
+import fernImage from "../assets/images/objects/ferns_fishes.jpg";
 import introImage from "../assets/images/objects/intro.png";
 import kennyImage from "../assets/images/objects/kennys_album.jpg";
 import lucasImage from "../assets/images/objects/lucass_books.png";
@@ -9,6 +10,7 @@ import richardImage from "../assets/images/objects/richards_thingy.jpg";
 import violetImage from "../assets/images/objects/violets_flower.jpg";
 import conclusionVideo from "../assets/videos/conclusion.mp4";
 import eliVideo from "../assets/videos/eli.mp4";
+import fernVideo from "../assets/videos/fern.mp4";
 import introVideo from "../assets/videos/intro.mp4";
 import kennyVideo from "../assets/videos/kenny.mp4";
 import lucasVideo from "../assets/videos/lucas.mp4";
@@ -19,8 +21,8 @@ import violetVideo from "../assets/videos/violet.mp4";
 export type ZackObject = {
 	name: string;
 	object: string;
-	image?: string;
-	video?: string;
+	image: string;
+	video: string;
 };
 
 export const allObjects: ZackObject[] = [
@@ -31,7 +33,7 @@ export const allObjects: ZackObject[] = [
 	{ name: "nes", object: "nothing", image: nesImage, video: nesVideo },
 	{ name: "richard", object: "photo & chiikawa", image: richardImage, video: richardVideo },
 	{ name: "eli", object: "clip", image: eliImage, video: eliVideo },
-	{ name: "fern", object: "object" },
+	{ name: "fern", object: "fishes", image: fernImage, video: fernVideo },
 	{ name: "conclusion", object: "", image: conclusionImage, video: conclusionVideo },
 ];
 
